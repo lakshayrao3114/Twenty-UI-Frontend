@@ -24,7 +24,7 @@ export default function Settings() {
         }
     }, [theme]);
 
-    const handleThemeChange = (newTheme) => {
+    const handleThemeChange = (newTheme : any) => {
         setTheme(newTheme);
     };
 

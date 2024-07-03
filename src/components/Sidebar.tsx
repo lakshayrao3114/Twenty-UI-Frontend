@@ -4,7 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function Sidebar({ isOpen, toggleSidebar }) {
+export default function Sidebar({ isOpen, toggleSidebar }: any) {
   const pathname = usePathname();
   const isActive = (path: any) => path === pathname;
   console.log(pathname);
